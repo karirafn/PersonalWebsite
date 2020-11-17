@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faFacebook, faGithub, faLinkedin, IconDefinition } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faGithub, faLinkedin, IconDefinition } from '@fortawesome/free-brands-svg-icons';
 import { faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -17,7 +17,7 @@ export class ProfileCardComponent implements OnInit {
   @Input() linkedInProfile: string;
   @Input() image: string;
   faLinkedin: IconDefinition = faLinkedin;
-  faFacebook: IconDefinition = faFacebook;
+  faFacebook: IconDefinition = faFacebookSquare;
   faGithub: IconDefinition = faGithub;
   faMobile: IconDefinition = faMobileAlt;
   faEnvelope: IconDefinition = faEnvelope;
