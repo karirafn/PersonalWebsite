@@ -1,1 +1,11 @@
-<p>profile-card works!</p>
+<div class="profile-card">
+    <img [src]="image" alt="Profile Picture">
+    <h1>{{ name }}</h1>
+    <p class=title>{{ title }}</p>
+    <p>Skaginn 3X</p>
+    <p><fa-icon [icon]="faMobile"></fa-icon>{{ phone }}</p>
+    <p><fa-icon [icon]="faEnvelope"></fa-icon>{{ email }}</p>
+    <a [href]="facebookProfile" target="_blank"><fa-icon [icon]="faFacebook" size="lg"></fa-icon></a>
+    <a [href]="githubProfile" target="_blank"><fa-icon [icon]="faGithub" size="lg"></fa-icon></a>
+    <a [href]="linkedInProfile" target="_blank"><fa-icon [icon]="faLinkedin" size="lg"></fa-icon></a>
+</div>

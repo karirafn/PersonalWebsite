@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+a:visited {
+    color: black;
+}
