@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faFacebookSquare, faGithub, faLinkedin, IconDefinition } from '@fortawesome/free-brands-svg-icons';
 import { faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Profile } from 'src/app/models/profile-model';
+import { Profile } from 'src/app/models/profile';
 import { ProfileService } from '../../../services/profile.service';
 
 @Component({
