@@ -3,9 +3,9 @@
     <h1>{{ profile.name }}</h1>
     <p class=title>{{ profile.title }}</p>
     <p>Skaginn 3X</p>
-    <p><fa-icon [icon]="faMobile"></fa-icon>{{ profile.phone }}</p>
-    <p><fa-icon [icon]="faEnvelope"></fa-icon>{{ profile.email }}</p>
-    <a [href]="profile.facebookUrl" target="_blank"><fa-icon [icon]="faFacebook" size="lg"></fa-icon></a>
-    <a [href]="profile.githubUrl" target="_blank"><fa-icon [icon]="faGithub" size="lg"></fa-icon></a>
-    <a [href]="profile.linkedinUrl" target="_blank"><fa-icon [icon]="faLinkedin" size="lg"></fa-icon></a>
+    <p><fa-icon class="icon" [icon]="faMobile"></fa-icon>{{ profile.phone }}</p>
+    <a class="icon" [href]="profile.facebookUrl" target="_blank"><fa-icon [icon]="faFacebook" size="lg"></fa-icon></a>
+    <a class="icon" [href]="profile.githubUrl" target="_blank"><fa-icon [icon]="faGithub" size="lg"></fa-icon></a>
+    <a class="icon" [href]="profile.linkedinUrl" target="_blank"><fa-icon [icon]="faLinkedin" size="lg"></fa-icon></a>
+    <p class="icon" class="contact" ><a [href]="profile.email">Contact</a></p>
 </div>
