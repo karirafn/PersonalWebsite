@@ -39,3 +39,7 @@ fa-icon {
 a:visited {
     color: inherit;
 }
+
+p {
+    padding-bottom: 10px;
+}

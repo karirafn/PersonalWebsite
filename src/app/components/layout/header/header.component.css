@@ -8,14 +8,9 @@ header {
 nav {
     background-color: lightgrey;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    padding-left: 10px;
-}
-
-a:visited {
-    color: inherit;
+    padding: 30px 5px 30px 5px;
 }
