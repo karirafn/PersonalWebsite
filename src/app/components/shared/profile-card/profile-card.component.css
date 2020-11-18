@@ -35,3 +35,7 @@ button:hover {
 fa-icon {
     padding-right: 8px;
 }
+
+a:visited {
+    color: inherit;
+}
