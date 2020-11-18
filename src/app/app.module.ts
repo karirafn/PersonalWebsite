@@ -9,6 +9,7 @@ import { ProfileComponent } from './components/pages/profile/profile.component';
 import { CvComponent } from './components/pages/cv/cv.component';
 import { ProfileCardComponent } from './components/shared/profile-card/profile-card.component';
 import { EducationComponent } from './components/shared/education/education.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EducationComponent } from './components/shared/education/education.comp
     ProfileComponent,
     CvComponent,
     ProfileCardComponent,
-    EducationComponent
+    EducationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

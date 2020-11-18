@@ -12,7 +12,7 @@ export class ProfileService {
   constructor() {
     this.profile = data;
    }
-
+   
    getProfile(): Profile {
      return this.profile;
    }

@@ -1,17 +1,21 @@
 header {
+    background-color: black;
+    color: white;
     text-align: center;
     font-size: 50px;
 }
 
 nav {
+    background-color: lightgrey;
     text-align: center;
 }
 
 a {
+    color: white;
     text-decoration: none;
     padding-left: 10px;
 }
 
 a:visited {
-    color: black;
+    color: inherit;
 }
