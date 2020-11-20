@@ -1,34 +1,32 @@
 .profile-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 350px;
     margin: auto;
     text-align: center;
 }
 
+.profile-info {
+    margin: auto 0;
+}
+
 .title {
-    color: grey;
     font-size: 18px;
+    font-weight: 600;
 }
 
-.contact {
-    background-color: black;
-    color: white;
-    width: 100%;
-    margin-top: 5px;
-    padding: 8px 0;
-}
-
-.contact a {
-    color: white;
+.company {
+    font-size: 16px;
 }
 
 .icon {
     margin: 2px 5px 0 5px;
+    vertical-align: center;
 }
 
 img {
     width: 100%;
     margin-bottom: 5px;
+    border-radius: 20px;
+    border: black solid 4px;
 }
 
 button {

@@ -1,10 +1,11 @@
 {
     "name": "Kári Rafn Karlsson",
     "title": "Mechanical Engineer",
+    "company": "Skaginn 3X",
     "email": "karirafn@gmail.com",
     "phone": "(+354) 695 3348",
-    "facebookUrl": "https://www.facebook.com/karirafn/",
+    "facebookUrl": "https://www.facebook.com/karirafn",
     "githubUrl": "https://github.com/karirafn",
-    "linkedinUrl": "'https://www.linkedin.com/in/karirafn/'",
+    "linkedinUrl": "'https://www.linkedin.com/in/karirafn'",
     "imagePath": "../../../../assets/img/profile.png"
 }

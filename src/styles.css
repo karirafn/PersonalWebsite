@@ -1,14 +1,42 @@
+:root {
+    --primary-bg-color: #222;
+    --primary-text-color: #fff;
+    --secondary-bg-color: #fff;
+    --secondary-text-color: #222;
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 a:visited{
     color: inherit;
+}
+
+.card {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+    border: black 4px solid;
+}
+
+.card a {
+    color: black;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
 }

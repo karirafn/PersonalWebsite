@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BackgroundComponent } from './pages/background/background.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SkillsComponent } from './pages/skills/skills.component';
 
-import { ProfileComponent } from './components/pages/profile/profile.component';
-import { CvComponent } from './components/pages/cv/cv.component';
 
 const routes: Routes = [
-  { path: '', component: ProfileComponent },
-  { path: 'cv', component: CvComponent }
+  { path: '', component: HomeComponent },
+  { path: 'background', component: BackgroundComponent },
+  { path: 'skills', component: SkillsComponent }
 ];
 
 @NgModule({

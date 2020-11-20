@@ -1,6 +1,7 @@
 export class Profile {
     name!: string;
     title!: string;
+    company!: string;
     email!: string;
     phone!: string;
     facebookUrl!: string;
