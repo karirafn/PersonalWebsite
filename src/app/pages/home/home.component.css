@@ -1,0 +1,30 @@
+.introduction {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.introduction-text {
+    align-self: flex-start;
+}
+
+.introduction .grid {
+    overflow: visible;
+    grid-template-columns: 55% auto;
+    gap: 30px;
+}
+
+.introduction-text {
+    animation: slideInFromLeft 1s ease-in;
+    color: var(--secondary-text-color)
+}
+
+@media (max-width: 768px) {
+    .introduction .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .introduction {
+        height: auto;
+    }
+}
